@@ -11,9 +11,11 @@
 }
 
 #chat ul.messages {
+    height: 100%;
+    margin: 0;
+    padding: 15px;
+    overflow: auto;
     list-style: none;
-    margin: 15px;
-    padding: 0;
 }
 
 #chat li.msg {
